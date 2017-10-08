@@ -18,6 +18,10 @@ nav ul {
   text-transform: uppercase;
 }
 
+.no-highlight {
+  background-color: inherit;
+}
+
 .wrapper {
   background-color: #eee8d5;
 }
@@ -38,15 +42,19 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper .dfn {
+h2 + .dfn {
   background-color: #b58900;
 }
 
-.dfn + strong {
+div strong:nth-last-child(2) {
   color: #fff;
 }
 
-header a:only-of-type {
+header nav a {
+  background-color: #719e07;
+}
+
+main a {
   background-color: #719e07;
 }
 
@@ -66,10 +74,10 @@ ol li:last-child {
   background-color: #657ba3;
 }
 
-.types li:nth-child(2) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types li:nth-child(5n) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
