@@ -46,7 +46,7 @@ nav ul {
   color: #fff;
 }
 
-a {
+header a:only-of-type {
   background-color: #719e07;
 }
 
