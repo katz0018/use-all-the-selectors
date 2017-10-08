@@ -19,6 +19,26 @@ nav ul {
 }
 
 .wrapper {
+  background-color: #eee8d5;
+}
+
+#contents {
+  color: #93a1a1;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
+}
+
+wrapper .dfn {
   background-color: #b58900;
 }
 
